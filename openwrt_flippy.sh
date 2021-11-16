@@ -9,7 +9,7 @@
 if [[ -z "${OPENWRT_ARMVIRT}" ]]; then
    echo "The [ OPENWRT_ARMVIRT ] variable must be specified."
    echo "You can use ${GITHUB_WORKSPACE} relative path: [ openwrt/bin/targets/*/*/*.tar.gz ]"
-   echo "Absolute path can be used: [ https://github.com/.../releases/download/.../openwrt-armvirt-64-default-rootfs.tar.gz ]"
+   echo "Absolute path can be used: [  https://github.com/hublj/op/releases/download/openwrt_s9xxx_2021.11.16.1920/openwrt-armvirt-64-default-rootfs.tar.gz ]"
    echo "You can run this Actions again after setting."
    exit 1
 fi
