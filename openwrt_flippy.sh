@@ -3,7 +3,7 @@
 # Description: Automatically Packaged OpenWrt
 # Function: Use Flippy's kernrl files and script to Packaged openwrt
 # Copyright (C) 2021 https://github.com/unifreq/openwrt_packit
-# Copyright (C) 2021 https://github.com/hublj/flippy-openwrt-actions
+# Copyright (C) 2021 https://github.com/ophub/flippy-openwrt-actions
 #=====================================================================================
 
 if [[ -z "${OPENWRT_ARMVIRT}" ]]; then
