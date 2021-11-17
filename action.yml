@@ -1,5 +1,5 @@
 name: 'Use flippy script to package Armvirt as OpenWrt'
-author: 'hublj'
+author: 'ophub'
 description: 'Package Armvirt as OpenWrt. Support Amlogic S9xxx STB, vplus, beikeyun and l1pro, etc.'
 inputs:
   mode:
