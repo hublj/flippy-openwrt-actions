@@ -120,7 +120,7 @@ git clone --depth 1 ${SCRIPT_REPO_URL} -b ${SCRIPT_REPO_BRANCH} ${SELECT_PACKITP
 sync
 
 # Load openwrt-armvirt-64-default-rootfs.tar.gz
-if [[ ${OPENWRT_ARMVIRT} == http* ]]; then
+if [[ ${OPENWRT_ARMVIRT} == https://github.com/hublj/op/releases/download/openwrt_s9xxx_2021.11.16.0501/openwrt-armvirt-64-default-rootfs.tar.gz ]]; then
    echo -e "${STEPS} wget [ ${OPENWRT_ARMVIRT} ] file into ${SELECT_PACKITPATH}"
    wget ${OPENWRT_ARMVIRT} -q -P ${SELECT_PACKITPATH}
 else
